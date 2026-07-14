@@ -4,12 +4,12 @@ class Solution:
         s1 = []
         t1 = []
 
-        for ch in list(s):
+        for ch in s:
             if ch != '#':
                 s1.append(ch)
             elif len(s1) != 0:
                 s1.pop()
-        for ch in list(t):
+        for ch in t:
             if ch != '#':
                 t1.append(ch)
             elif len(t1) != 0:
