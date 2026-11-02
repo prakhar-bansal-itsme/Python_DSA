@@ -11,4 +11,3 @@ class Solution:
                 return [seen[need], i]
 
             seen[nums[i]] = i
-            
